@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\ETC">
+      <UniqueIdentifier>{53ba4634-164d-49a9-b72f-035feb1a3954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ETC">
+      <UniqueIdentifier>{f45fd67b-c764-4418-aa0f-b0c10423cfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Server">
+      <UniqueIdentifier>{8c2a03d4-4557-48d1-bc4c-0faf64ede8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Server">
+      <UniqueIdentifier>{39d5fb6a-a608-46ee-ab8c-482108b931f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DB">
+      <UniqueIdentifier>{5b718291-ccbf-437e-9eeb-ae082d6aa14f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DB">
+      <UniqueIdentifier>{7c113a4c-5e97-4980-9a43-ffbb3b594aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\CriticalSection">
+      <UniqueIdentifier>{1e6b737c-a4ce-4913-a051-ca664201778f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Log">
+      <UniqueIdentifier>{317d770a-06f9-4287-9d1b-09687e01ae13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Session">
+      <UniqueIdentifier>{77e1fadb-1bdf-4e62-8d56-1af1c456fb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Session">
+      <UniqueIdentifier>{0519a884-90fe-4c12-b729-b8a07ad288f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Thread">
+      <UniqueIdentifier>{060f1327-ac81-4a2d-b791-5808f8a0889e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Thread">
+      <UniqueIdentifier>{4dfda218-ae85-492e-ab4e-a290768c597b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Room">
+      <UniqueIdentifier>{bfd94387-587a-4d51-8c55-759c41293fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Room">
+      <UniqueIdentifier>{5c033490-2ff4-4356-b2a1-3686376c0e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Login">
+      <UniqueIdentifier>{11607e33-626b-4c9f-bff3-9cecba966e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Login">
+      <UniqueIdentifier>{6e2cb567-4c9d-44ac-a548-85ede67a90ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CIocp.h">
+      <Filter>헤더 파일\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleton.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CServer.h">
+      <Filter>헤더 파일\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="CDatabase.h">
+      <Filter>헤더 파일\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="CLog.h">
+      <Filter>헤더 파일\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>헤더 파일\CriticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="CSession.h">
+      <Filter>헤더 파일\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="CCircleQueue.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CThread.h">
+      <Filter>헤더 파일\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="CSessionManager.h">
+      <Filter>헤더 파일\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserSession.h">
+      <Filter>헤더 파일\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoom.h">
+      <Filter>헤더 파일\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoomManager.h">
+      <Filter>헤더 파일\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserManager.h">
+      <Filter>헤더 파일\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogin.h">
+      <Filter>헤더 파일\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="CResult.h">
+      <Filter>헤더 파일\ETC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CIocp.cpp">
+      <Filter>소스 파일\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="CServer.cpp">
+      <Filter>소스 파일\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="CDatabase.cpp">
+      <Filter>소스 파일\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="CSession.cpp">
+      <Filter>소스 파일\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="CSessionManager.cpp">
+      <Filter>소스 파일\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="CThread.cpp">
+      <Filter>소스 파일\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserSession.cpp">
+      <Filter>소스 파일\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoom.cpp">
+      <Filter>소스 파일\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoomManager.cpp">
+      <Filter>소스 파일\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserManager.cpp">
+      <Filter>소스 파일\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogin.cpp">
+      <Filter>소스 파일\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="CResult.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>헤더 파일\ETC</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
