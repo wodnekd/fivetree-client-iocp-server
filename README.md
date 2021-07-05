@@ -1,11 +1,11 @@
 # fivetree-client-iocp-server
 -----
-![오목게임 깃허브 리드미1](https://user-images.githubusercontent.com/86718283/124387811-ea04bf80-dd1a-11eb-844d-3274a6ee05c0.png)
-
+![image](https://user-images.githubusercontent.com/86718283/124404173-bfdfeb80-dd74-11eb-9b82-b401b8e46cd7.png)
+![image](https://user-images.githubusercontent.com/86718283/124404157-ab035800-dd74-11eb-9395-4cd7675f6690.png)
 ----------------
 >사용언어
 ```
-c / c ++ / win32
+c / c ++ / unity3d
 ```
 ----------------
 >서버
@@ -15,7 +15,6 @@ iocp server
 + CrirticalSection.h
 + CDatabase.h
 + CCircleQueue.h
-+ CResult.h
 + CSingleTon.h
 + protocal.h
 + stdafx.h
@@ -33,20 +32,20 @@ iocp server
 ----------------
 >클라이언트
 ```
-win32
+unity3D
 ```
-+ singleton.h
-+ fivetree.h
-+ stdafx.h
-+ protocal.h
-+ sendPacket.h
-+ server.h
-+ dialog.h
-+ gameWindow.h
-+ loginWindow.h
-+ resultWindow.h
-+ waitRoomWindow.h
-
++ chat.cs
++ enemy.cs
++ gameManager.cs
++ lobby.cs
++ login.cs
++ network_s.cs
++ newIdCreate.cs
++ player.cs
++ playerCreate.cs
++ score_result.cs
++ textBoxMgr.cs
++ Win.cs
 -----------------
 
 
